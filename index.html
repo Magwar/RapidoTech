@@ -9,23 +9,37 @@
     <title>Rapido Tech</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="container-a">
-            <a href="#">Home</a>
-            <input type="text" placeholder="Search..." class="search-bar">
-            <!-- add js for the input to turn green on user input and also on the size of the content -->
-            </div>
-            <a href="#" class="logo">Rapido Tech</a>
-            <div class="container-b">
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-whatsapp"></i>
-            </div>
+    <header class="navbar">
+        <nav class="nav-links">
+            <section class="nav-bar-links">
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+            </section>
+            <!-- products show the categories available in a tile/grid format
+            with images and descriptions of each product. Clicking on any
+            category will take you to that specific page where all items within
+            that category are displayed together. -->
+            <a href="#" class="logo">RapidoTech</a>
+            <!-- clicking this should direct the client back to home same as Home -->
+            <section class="nav-bar-links">
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#"><i class="fa-brands fa-instagram" class="socials"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp" class="socials"></i></a>
+            </section>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <section class="search-cart">
+            <input type="text" placeholder="Search..." class="search-bar">
+             <!-- inputting content on the search bar hides the carousel and gives the client more view space -->
+             <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></i></a>
+        </section>
+        <section>
+            <h2>Our Products:</h2>
+            <div id="productsContainer"></div>
+        </section>
+    </main>
     <footer>
         © Rapido Tech - All rights reserved
     </footer>
