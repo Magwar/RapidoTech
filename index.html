@@ -1,54 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/73dd3e0755.js" crossorigin="anonymous"></script>
-    <script src="script.js" defer></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Rapido Tech</title>
+    <!-- <script src="script.js" defer></script> -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Rapido Tech | #1 Accessories Store</title>
 </head>
+
 <body>
-    <header class="navbar">
-        <nav class="nav-links">
-            <section class="nav-bar-links">
-                <a href="#">Home</a>
-                <a href="#">Products</a>
-            </section>
-            <!-- products show the categories available in a tile/grid format
-            with images and descriptions of each product. Clicking on any
-            category will take you to that specific page where all items within
-            that category are displayed together. -->
-            <a href="#" class="logo">RapidoTech</a>
-            <!-- clicking this should direct the client back to home same as Home -->
-            <section class="nav-bar-links">
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <a href="#"><i class="fa-brands fa-instagram" class="socials"></i></a>
-                <a href="#"><i class="fa-brands fa-whatsapp" class="socials"></i></a>
-            </section>
-        </nav>
-    </header>
-    <main>
-        <!-- <section class="search-cart"> -->
-            <!-- <input type="text" placeholder="Search..." class="search-bar"> -->
-             <!-- inputting content on the search bar hides the carousel and gives the client more view space -->
-             <!-- <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></i></a> -->
-        <!-- </section> -->
-        <section>
-            <h2>Our Products:</h2>
-            <div id="productsContainer">
-                <!-- <div class="product-card">
-                    <img src="#" alt="Product Name">
-                    <h3><a href="#">Product Title</a></h3>
-                    <p>Product Description</p>
-                    <p class="price">Price: $XX.XX (Optional)</p>
-                </div> -->
+    <div class="top-bar">
+        <div class="contact-info">
+            <span>+254 746 56 90 25</span>
+            <span>rapidotech@gmail.com</span>
+            <div class="options">
+                <select name="#" id="language-select">
+                    <option value="En">English</option>
+                    <option value="Es">Spanish</option>
+                </select>
+                <select name="#" id="currency-select">
+                    <option value="Usd">USD ($)</option>
+                    <option value="Eur">EUR (€)</option>
+                </select>
             </div>
-        </section>
-    </main>
-    <footer>
-        © Rapido Tech - All rights reserved
-    </footer>
+        </div>
+    </div>
+
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="rapidotech logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products, brands and more">
+            <button>Search</button>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Sale</a></li>
+        </ul>
+    </nav>
+    <div class="main-banner">
+        <div class="banner-content">
+            <h1>Super Laptop Up To 96GB Memory</h1>
+            <p>Limited Time: Online Only!</p>
+            <button>Shop Now</button>
+        </div>
+        <div class="banner-image">
+            <img src="#" alt="Product">
+        </div>
+    </div>
 </body>
+
 </html>
